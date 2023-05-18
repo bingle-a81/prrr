@@ -1,17 +1,12 @@
-class Point:
-    color='red'
-    circle=2
+class P:
+    op=True
+    io=False
 
-Point.color='black'
+    def set_coord():
+        print('вызов метода set coord')
 
-print(Point.__dict__)
 
-a=Point()
-a.color='oo'
+P.set_coord()
 
-print(a.__dict__)
-
-b=Point()
-
-print(b.color)
-print(a.color)
+pr=P()
+pr.set_coord()
